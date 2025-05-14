@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "digital";
+  src: url("./digital-7.regular.ttf") format("truetype");
+}
+
+#app {
+  width: 100%;
+  height: 90vh;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center
+}
+
+#calculator {
+  height: 50%;
+  position: relative;
+  border: 1px solid black;
+  margin: auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  background-color: rgb(10, 10, 10);
+}
+
+.screen {
+  margin-bottom: 5rem;
+  width: 25rem;
+  height: 25%;
+  background-color: rgb(189, 187, 157);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-content {
+  font-family: "digital";
+  font-size: 3rem;
+}
+
+.keyboard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.keyboard-container {
+  width: 100%;
+  position: relative;
+}
+
+.keyboard-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.key {
+  font-size: 2rem;
+}
