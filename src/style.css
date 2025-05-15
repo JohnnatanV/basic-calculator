@@ -30,7 +30,7 @@
   width: 25rem;
   height: 25%;
   background-color: rgb(189, 187, 157);
-  border-radius: 10px;
+  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,9 @@
 
 .screen-content {
   font-family: "digital";
-  font-size: 3rem;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
 }
 
 .keyboard {
@@ -56,6 +58,7 @@
 }
 
 .keyboard-row {
+  margin-bottom: .5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
